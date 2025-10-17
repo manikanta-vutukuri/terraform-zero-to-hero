@@ -9,3 +9,23 @@ variable "instance_type" {
   type = string
   default = "t3.micro"
 }
+
+variable "project" {
+  description = "Project name / prefix"
+  type        = string
+  default     = "enterprise-demo"
+}
+
+variable "environment" {
+  description = "Deployment environment (dev/stage/prod)"
+  type        = string
+  default     = "dev"
+}
+
+variable "ami_value" {
+  type = string
+}
+
+# variable "subnet_id" {
+#   type = string
+# }

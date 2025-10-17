@@ -1,2 +1,6 @@
 aws_region = "us-east-1"
 instance_type = "t2.micro"
+project           = "acme-enterprise"
+environment       = "dev"
+ami_value        = "ami-0341d95f75f311023"
+# subnet_id = ""
